@@ -1,0 +1,23 @@
+{
+  "name": "caring-canines",
+  "version": "1.0.0",
+  "description": "website for caringcanines.net",
+  "main": "index.js",
+  "scripts": {
+    "start": "forever -w -s --spinSleepTime 10000 start index.js",
+    "test": "HOST='0.0.0.0' PORT=8080 node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nbenz/caring-canines.git"
+  },
+  "author": "Nate Benz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nbenz/caring-canines/issues"
+  },
+  "homepage": "https://github.com/nbenz/caring-canines#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
